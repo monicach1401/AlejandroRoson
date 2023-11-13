@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.image-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55%; /* 100% del viewport height */
+  overflow: hidden; /* Para ocultar cualquier parte de la imagen que se extienda más allá del viewport */
+}
+
+/* Foto del Mundo */
+
+ .fixed-photo {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+   /* max-height: 400px; /* O la altura máxima deseada */
+}
+/* Titulo del centro de la foto */
+.name {
+  position: absolute;
+  top: 50%; /* Puedes ajustar este valor según sea necesario */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el texto en relación con su contenedor */
+  color: rgb(240, 170, 105); /* Color del texto */
+  font-size: 48px; /* Tamaño de la fuente */
+  text-align: center;
+}
+.uptoprogress{
+  font-size: 20px;
+  font-weight: bold;
+}
+.color{
+  color: rgb(240, 170, 105);
+}
+p{
+  font-size: 11px;
+}
+.contact{
+  background-color: black;
+ color: rgb(240, 170, 105);
+ height: 40px;
+ width: 60%;
+ margin-top: 3%;
+ margin-left: 20%;
+ padding-top: 2%;
+ border-radius: 40%;
+}
