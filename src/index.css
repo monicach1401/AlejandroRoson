@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+ /* -------------- Componente Inicio ------------------------*/
 .image-container {
   position: fixed;
   top: 0;
@@ -59,7 +59,29 @@ p{
  padding-top: 2%;
  border-radius: 50%;
 }
+
 .mail{
   margin-top: 2%;
   margin-left: 130%;
 }
+/* -------------------------------------*/
+/* Componente Servicios*/
+.services{
+  margin-top:10%;
+  margin-left:20%;
+}
+/* -------------------------------------*/
+
+/* Componente Sobre mí*/
+.aboutme{
+  margin-top:10%;
+  margin-left:20%;
+}
+/* -------------------------------------*/
+
+/* Componente Contacto*/
+.contacto{
+  margin-top:10%;
+  margin-left:20%;
+}
+/* -------------------------------------*/

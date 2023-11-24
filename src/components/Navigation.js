@@ -1,5 +1,5 @@
 import logo from "../assets/images/logo.png";
-
+import { NavLink } from "react-router-dom";
 export const Navigation = () => {
   return (
     <>
@@ -22,43 +22,50 @@ export const Navigation = () => {
             height="60"
           />
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav text-center d-flex ms-auto"> {/* poner ms-auto me alinea el menú a la derecha */}
+            <ul className="navbar-nav text-center d-flex ms-auto">
+              {" "}
+              {/* poner ms-auto me alinea el menú a la derecha */}
               <li className="nav-item">
-                <a
-                  className="nav-link active text-center "
-                  aria-current="page"
-                  href="#"
+                <NavLink
+                  to="/"
+                  className="nav-link"
+                  activeClassName="active"
                   style={{ color: "rgb(240, 170, 105)" }}
                 >
                   INICIO
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link text-center "
-                  href="#"
+                <NavLink
+                  to="/services"
+                  className="nav-link"
+                  activeClassName="active"
                   style={{ color: "rgb(240, 170, 105)" }}
                 >
                   SERVICIOS
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link text-center"
-                  href="#"
+                <NavLink
+                  to="/aboutme"
+                  className="nav-link"
+                  activeClassName="active"
                   style={{ color: "rgb(240, 170, 105)" }}
                 >
                   SOBRE MÍ
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link text-center "
-                  href="#"
+                              <NavLink
+                  to="/contact"
+                  className="nav-link"
+                  activeClassName="active"
                   style={{ color: "rgb(240, 170, 105)" }}
                 >
-                  CONTACTO
-                </a>
+                  CONTACTO 
+                </NavLink>
+
+
               </li>
             </ul>
           </div>

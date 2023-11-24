@@ -4,16 +4,10 @@ import { Button } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 
 export const Home = () => {
-
-// Función que envia el mail, %20 es el espacio
-const sendEmail=() =>{
- window.location.href = `https://mail.google.com/mail/u/0/?fs=1&to=monicachavarria.c@gmail.com&su=Asunto%20del%20mail&tf=cm`
-  
-}
-
-
-
-
+  // Función que envia el mail, %20 es el espacio
+  const sendEmail = () => {
+    window.location.href = `https://mail.google.com/mail/u/0/?fs=1&to=monicachavarria.c@gmail.com&su=Asunto%20del%20mail&tf=cm`;
+  };
   return (
     <>
       <div className="image-container">
@@ -59,20 +53,19 @@ const sendEmail=() =>{
         <div className="contact">
           <p>CORREO ELECTRÓNICO</p>
           <div className="mail">
-          <Button
-            variant="contained"
-            style={{ backgroundColor: "black", color: "rgb(240, 170, 105)", }}
-            startIcon={<EmailIcon />}
-            onClick={sendEmail}
-          >
-            Enviar mail
-          </Button>
-        </div>
+            <Button
+              variant="contained"
+              style={{ backgroundColor: "black", color: "rgb(240, 170, 105)" }}
+              startIcon={<EmailIcon />}
+              onClick={sendEmail}
+            >
+              Enviar mail
+            </Button>
+          </div>
         </div>
         <div className="contact">
           <p>TELÉFONO</p>
         </div>
-      
       </div>
     </>
   );
