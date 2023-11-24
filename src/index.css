@@ -50,7 +50,7 @@ p{
   font-size: 11px;
 }
 .contact{
-  background-color: black;
+ background-color: black;
  color: rgb(240, 170, 105);
  height: 40px;
  width: 60%;
@@ -58,4 +58,8 @@ p{
  margin-left: 20%;
  padding-top: 2%;
  border-radius: 50%;
+}
+.mail{
+  margin-top: 2%;
+  margin-left: 130%;
 }
