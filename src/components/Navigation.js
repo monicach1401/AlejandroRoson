@@ -8,18 +8,18 @@ export const Navigation = () => {
   const isActiveRoute = (route) => {
     return location.pathname === route;
   };
+
   return (
     <>
       <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <img
+          className="d-inline-block align-center"
+          src={logo}
+          alt=""
+          width="60"
+          height="60"
+        />
         <div className="container">
-          <img
-            className="d-inline-block align-center"
-            src={logo}
-            alt=""
-            width="60"
-            height="60"
-          />
-
           <button
             type="button"
             data-bs-toggle="collapse"
